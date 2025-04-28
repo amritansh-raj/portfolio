@@ -1,0 +1,75 @@
+{
+    "person": {
+        "role": "Front-End Developer"
+    },
+    "newsletter": {
+        "title": "Subscribe to {firstName}'s Newsletter",
+        "description": "I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering",
+        "button": "Sign up"
+    },
+    "home": {
+        "label": "Home",
+        "title": "{name}'s Portfolio",
+        "description": "Portfolio website showcasing my work as a {role}",
+        "headline": "Front-End Developer",
+        "subline": "I'm Amritansh, a Front-End Developer and DevOps Engineer at Team ERP, where I build seamless interfaces and scalable systems."
+    },
+    "about": {
+        "label": "About",
+        "title": "About me",
+        "description": "Meet {name}, {role} from {location}",
+        "intro": {
+            "title": "Introduction",
+            "description": "Amritansh is a developer and engineer passionate about crafting seamless digital experiences and building scalable infrastructure. His work bridges user-centric front-end design with the robustness of modern DevOps practices."
+        },
+        "work": {
+            "title": "Work Experience",
+            "experiences": {
+                "Team ERP": {
+                    "timeframe": "May 2023 - Present",
+                    "role": "Software Developer Intern",
+                    "achievements": "Contributed to TEAM ERP@KIET, a student-led in-house ERP system, enhancing key modules like Marks Monitoring, Hostel Management, and Academics. Developed and maintained features for modules including Report Generation, Controller of Examination, and Accounts, improving system reliability and usability.Gained practical experience during an internship at TEAM ERP, working across development, testing, and deployment of real-world ERP solutions."
+                },
+                "Zeniamobile": {
+                    "timeframe": "Jan 2025 – March 2025",
+                    "role": "React Developer - Trainee - Intern - Full-time",
+                    "achievements": "Developed a web application using React for the frontend and integrated it with backend APIs.Deployed the application on Vercel for frontend hosting and also used AWS EC2 instance for same. Gained hands-on experience with cloud deployments, version control, and responsive UI development."
+                }
+            }
+        },
+        "studies": {
+            "title": "Studies",
+            "institutions": {
+                "KIET Group of Institutions": {
+                    "description": "Pursuing major in Computer Science."
+                }
+            }
+        },
+        "technical": {
+            "title": "Technical skills",
+            "skills": {
+                "Nextjs": {
+                    "description": "Building next gen apps with Next.js + Once UI + Supabase."
+                }
+            }
+        }
+    },
+    "blog": {
+        "label": "Blog",
+        "title": "Writing about design and tech...",
+        "description": "Read what {name} has been up to recently"
+    },
+    "work": {
+        "label": "Work",
+        "title": "My projects",
+        "description": "Design and dev projects by {name}"
+    },
+    "gallery": {
+        "label": "Gallery",
+        "title": "My photo gallery",
+        "description": "A photo collection by {name}"
+    },
+    "projectCard": {
+        "label": "Read Case Study"
+    }
+}

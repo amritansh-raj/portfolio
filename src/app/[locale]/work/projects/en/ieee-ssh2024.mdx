@@ -1,0 +1,50 @@
+---
+title: "IEEE SSH 2024 Codeathon Website"
+publishedAt: "2024-10-29"
+summary: "Developed a robust, production-grade platform for IEEE Region 10 and IEEE India Council’s flagship student-led Codeathon, utilizing cutting-edge web technologies and CI/CD best practices."
+images:
+  - "/images/projects/ieee-ssh2024/homepage.png"
+  - "/images/projects/ieee-ssh2024/overview.png"
+team:
+  - name: "Amritansh Raj"
+    role: "Front-End Developer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/amritansh-raj-864960256/"
+  - name: "Team ERP"
+    role: "Product Manager"
+    avatar: "/images/team-erp-logo.jpeg"
+    linkedIn: "https://www.linkedin.com/company/team-erp/"
+---
+
+## Overview
+
+Designed and developed the official platform for IEEE SSH 2024, a premier student-led Codeathon initiative by IEEE Region 10 and IEEE India Council, using a modern, scalable tech stack with a focus on high availability, seamless user experience, and real-time management capabilities.
+
+## Key Features
+
+- **Team-Based Registration System**: Allowed creation of teams with multiple members, with dynamic leader assignment and transfer capability, ensuring flexibility while maintaining secure leadership management.
+- **Integrated Payment Gateway**: Enabled streamlined team payment and registration through secure online payment methods.
+- **Modern UI/UX**: Developed a responsive, visually appealing interface utilizing Ant Design and modern UI libraries, optimized for a smooth and intuitive user experience.
+- **Admin Panel for Event Management**: Built a comprehensive admin dashboard for real-time tracking of registrations, payments, reports, and overall platform analytics.
+- **Zero-Downtime Deployments**: Implemented a Green-Blue deployment strategy using Dockerized containers for reliable and continuous delivery with no downtime.
+- **Progressive Web Standards**: Optimized for performance, accessibility, and SEO using best practices of Next.js 14.
+- **State Management with Zustand**: Simplified and streamlined global state management across registration, payment, and user sessions.
+- **CI/CD Pipeline**: Automated build, test, and deployment workflows ensuring faster iterations and production-grade stability.
+
+## Technologies Used
+
+- **Next.js 14**: For building a highly optimized, server-side rendered, and scalable front-end.
+- **TypeScript**: For enhancing code quality, maintainability, and type-safety.
+- **Zustand**: For lightweight and efficient global state management.
+- **Ant Design**: For a consistent, professional-grade UI component library.
+- **Docker**: For containerization and environment consistency across development and production.
+- **CI/CD Pipelines**: For automated deployment and zero-downtime releases following green-blue deployment strategies.
+- **Integrated Payment System**: For seamless, secure transaction handling during team registration.
+
+## Challenges and Learnings
+
+The most challenging aspect was architecting a flexible team registration system where any team member could become or change the leader at any time without breaking the team structure, ensuring consistency across the UI and database models. Managing secure, real-time updates during dynamic leadership transfers demanded careful state synchronization. Implementing a full green-blue deployment pipeline with Docker added operational complexity but greatly enhanced platform reliability. Balancing high performance, payment integration, and admin analytics while maintaining a modern user experience taught critical lessons in building scalable and resilient web applications.
+
+## Outcome
+
+The platform successfully handled registrations, team management, and payment processing for IEEE SSH 2024, serving hundreds of participants smoothly. The admin panel provided real-time operational visibility, improving event management efficiency. The adoption of green-blue deployment and containerized CI/CD pipelines ensured flawless, uninterrupted updates during the event cycle. Positive feedback from organizers and participants reinforced the impact of a clean, robust platform designed with scalability and user-centricity in mind.
